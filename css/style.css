@@ -17,6 +17,65 @@
       font-family: arial;
   }
 
+ #content.myhome .section h1{
+   margin-top: 80px;
+ }
+
+#content.myhome form{
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+#content.myhome input[type=submit]{
+  background: #f19151;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: #fff;
+  outline: none;
+}
+
+#content.myhome input[type=submit]:hover{
+  background: #c06020;
+}
+
+
+
+#content.myhome input[type=text]{
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+#content.myhome div.desc{
+  float: left;
+  width: 300px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#content.myhome div.desc a {
+ color:  #f19151;
+ text-decoration: none;
+ 
+}
+
+#content.myhome div.desc a:hover {
+ text-decoration: underline;
+
+}
+
+
+#content.myhome a.angels{
+  display: block;
+  float: left;
+}
+
+#content.myhome div.desc ul{
+  padding-left: 20px;
+}
+
   ul#menu{
       position: fixed;
       z-index:10;
@@ -26,7 +85,7 @@
       padding-right:100px;
       height:200px;
       left:50%;;
-      margin-left:-350px;
+      margin-left:-380px;
       top:0px;
       background:url(../img/menu.png) center center no-repeat;
       list-style:none;
@@ -228,6 +287,8 @@
     border-radius:110px;
     box-shadow: 0 0 5px #000;
     text-decoration: none;
+    padding-top: 20px;
+    box-sizing: border-box;
   }
 
   a.event:hover{
@@ -235,4 +296,4 @@
     text-decoration: underline;
   }
   
- error { color: red; }
+  div.error { color: #f66; margin: 20px;}
