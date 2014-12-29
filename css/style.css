@@ -236,7 +236,13 @@
   }
 
 
-
+  /* Follow */
+  div#follow  {
+    float: left;
+    margin-left: 10;
+    margin-top: 5;
+  }
+  
 /* Socials */
   ul#social {
       position: relative;
