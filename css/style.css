@@ -1,10 +1,10 @@
   @font-face {
-    font-family: 'sofia';
-    src: url('../webfont/sofia-regular-webfont.eot');
-    src: url('../webfont/sofia-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../webfont/sofia-regular-webfont.woff') format('woff'),
-         url('../webfont/sofia-regular-webfont.ttf') format('truetype'),
-         url('../webfont/sofia-regular-webfont.svg#sofiaregular') format('svg');
+    font-family: 'clear_sans_lightregular';
+    src: url('../webfont/ClearSans-Light-webfont.eot');
+    src: url('../webfont/ClearSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfont/ClearSans-Light-webfont.woff') format('woff'),
+         url('../webfont/ClearSans-Light-webfont.ttf') format('truetype'),
+         url('../webfont/ClearSans-Light-webfont.svg#clear_sans_lightregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -14,7 +14,8 @@
       margin:0;
       padding:0;
       overflow:hidden;
-      font-family: arial;
+      /*font-family: arial;*/
+     font-family: 'clear_sans_lightregular';
   }
 
  #content.myhome .section h1{
@@ -31,7 +32,7 @@
   border: none;
   padding: 10px;
   border-radius: 6px;
-  color: #fff;
+  color: #fffef6;
   outline: none;
 }
 
@@ -89,7 +90,7 @@
       top:0px;
       background:url(../img/menu.png) center center no-repeat;
       list-style:none;
-      font-family: sofia;
+      /* font-family: sofia; */
       font-size:22px;
       overflow:hidden;
       text-align:center;
@@ -126,7 +127,7 @@
 
   ul#menu li.on{
 
-      color:#fff;
+      color:#fffef6;
   }
 
   ul#menu li.on a{
@@ -151,30 +152,30 @@
       text-align: center;
       margin:0;
       padding:190px 0 30px 0;
-      color:#ede8dc;
+      color:#fffef6;
       text-shadow: 0 0 3px #000;
-      font-family: sofia;
+      /* font-family: sofia; */
   }
 
   .section#home{
-      color:#fff;
-      background: #567959 url('../img/homeBg.png') 0 0 repeat;
+      color:#fffef6;
+      background: #000000; /* url('../img/homeBg.png') 0 0 repeat; */
   }
 
 
 
   .section#tour{
-      color:#fff;
+      color:#fffef6;
       background:#000000;
   }
 
   .section#music{
-      color:#fff;
-      background:#d79060;
+      color:#fffef6;
+      background:#488399;
   }
 
   .section#video{
-      color:#fff;
+      color:#fffef6;
       background-color:#333;
   }
 
@@ -280,16 +281,16 @@
 
   a.event{
     display: block;
-    background:#f19151;
-    border:2px solid #e3dac4;
+    background:#488399;
+    /* border:2px solid #e3dac4; */
     position:absolute;
     width:170px;
     padding: 20px;
     height:170px;
     font-size:20px;
     text-align: center;
-    color:#fff;
-    font-family:sofia;
+    color:#fffef6;
+    /* font-family:sofia; */
     top:310px;
     left:50%;
     margin-left:170px;
@@ -298,11 +299,12 @@
     text-decoration: none;
     padding-top: 20px;
     box-sizing: border-box;
+    transition: background 0.2s; 
   }
 
   a.event:hover{
-    background:#e07f3d;
-    text-decoration: underline;
+    background:#155066;
+    text-decoration: none;
   }
   
   div.error { color: #f66; margin: 20px;}
